@@ -1,1 +1,8 @@
-# Cstudy11111
+#include <stdio.h>
+
+int main()
+{
+
+
+    return 0;
+}
