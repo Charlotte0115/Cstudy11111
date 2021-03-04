@@ -1,8 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main()
-{
-
-
-    return 0;
-}
+void bubble_sort1(int num,int *arr);
+void bubble_sort2(int number_len, int* array);
