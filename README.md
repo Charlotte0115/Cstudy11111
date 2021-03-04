@@ -18,4 +18,16 @@ void bubble_sort1(int num,int *arr)
     int temp;
     int *ptr = malloc(sizeof(int) * num);
     ptr = arr;
+    for(int i = 0; i < num; i++) 
+    {
+        for(int j = 0; j < num-i-1; j++) 
+        {
+            if(*(ptr + j) > *(ptr + (j + 1)))
+            {
+                temp = *(ptr + j);
+                *(ptr + j) = *(ptr + (j + 1));
+                *(ptr + (j + 1)) = temp;
+            }
+        }
+    }
 }
