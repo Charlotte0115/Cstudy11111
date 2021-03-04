@@ -30,4 +30,10 @@ void bubble_sort1(int num,int *arr)
             }
         }
     }
+    for(int i = 0; i < num; i++)
+    {
+        printf("%d",*(ptr+i));
+        if(!(i == num - 1)) printf(", ");
+    }
+    printf("\n");
 }
