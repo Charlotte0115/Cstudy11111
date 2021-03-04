@@ -12,3 +12,10 @@ int main(void)
     bubble_sort2(n,arr);
     return 0;
 }
+
+void bubble_sort1(int num,int *arr)
+{
+    int temp;
+    int *ptr = malloc(sizeof(int) * num);
+    ptr = arr;
+}
